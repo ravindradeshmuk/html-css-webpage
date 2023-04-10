@@ -1,0 +1,280 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 100%;
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  
+    
+    }
+.name{
+    width: 50%;
+    display: flex;
+    margin-left: 4rem;
+    
+}
+
+
+.itom{
+ 
+    width: 80%;
+
+}
+
+ .itom ul{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    text-decoration: none;
+    word-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 80%;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    margin-right: 4px;
+
+
+}
+ .itom li{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   color: blueviolet;
+  
+}
+.seconddiv {
+    margin-top: 20rem;
+}
+
+.heading {
+    font-size: 100px;
+}
+
+.secondcontainer {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 10rem;
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    color: white;
+
+}
+
+#btn {
+
+    background-color: rgb(89, 89, 152);
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.btn2 {
+   
+    padding: 20px;
+    color:white;
+   cursor: pointer;
+   border: 2px solid white;
+   background: transparent;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+.thirdparent {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.image {
+    width: 50%;
+    height: 50vh;
+}
+
+img {
+    width: 100%;
+    height: 80vh;
+    background-position: fixed ;
+}
+
+.paregraph {
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#readbtn {
+    width: 10rem;
+    background-color: blue;
+    color: white;
+    border-radius: 2px solid white;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.forthparent {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+}
+
+.paregraph2 {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.secondimg {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+
+.secondimg img {
+    width: 80%;
+    height: 100vh;
+    background-position: fixed ;
+
+}
+
+.fivediv {
+    width: 100%;
+
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+}
+
+.imagdiv {
+    display: flex;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 100px;
+}
+
+.sixdiv {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed ;
+
+    color: white;
+}
+
+.sixdiv img {
+    border-radius: 50%;
+    width: 30%;
+    height: 40vh;
+    
+
+}
+
+.sevendiv {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    align-items: center;
+    display:flex ;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.eightdiv {
+    background-color: whitesmoke;
+    height: 30vh;
+    padding-top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#fourbtn {
+    background-color: blue;
+    width: 10rem;
+    height: 5rem;
+    color: white;
+
+}
+.lastdiv{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+.rightbar{
+    display: flex;
+
+}
+.rightbar img{
+    width: 15%;
+    height: 10%;
+    margin: 2rem;
+   background-color: white;
+}
+.sliderimg img{
+    width: 80px;
+    height: 80px;
+display: flex;
+justify-content: center;
+
+}
+.sliderimg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    
+    animation: slider 10s linear infinite;
+  }
+  @keyframes sliderimg{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-1000px);
+    }
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+  }

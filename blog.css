@@ -1,0 +1,249 @@
+body{
+    width: 100vw;
+    height: 100vh;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.first{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 30%;
+ 
+}
+.child{
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    padding-top: 40px;
+}
+.second{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    /* margin: 100px 100px 100px 100px ; */
+    padding: 100px;
+}
+.firstimg{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    
+    
+}
+.firstimage{
+  display: flex;
+ 
+
+}
+
+.firstimg img{
+ width: 80%;
+ height: 90%;
+ display: flex;
+
+float: right;
+
+}
+.leftdiv{
+ display: flex;
+ flex-direction: row;
+}
+.inputdiv{
+    width: 40%;
+
+}
+.inputdiv input{
+    width: 70%;
+    padding: 10px;
+   border: none;
+   outline: none;
+   
+}
+.border{
+    border: 0.1px solid black;
+    width: 70%;
+    
+}
+.border img{
+    width: 40px;
+    height: 20px;
+    background-color: wheat;
+   
+   
+}
+.one{
+    display: flex;
+   
+}
+.oneimg{
+    width: 20%;
+    
+}
+.oneimg img{
+    height: 40px;
+    width: 40px;
+    padding-top: 1.2rem;
+
+}
+.secondchild{
+    width: 70%;
+   color: blue;
+}
+.overlapimg{
+   width: 25%;
+   height: 30%;
+   background-color:white;
+  position:absolute;
+  bottom: -300px;
+  left: 10px;
+  margin-left: 90px;
+}
+.overlapimg h5{
+    text-align: center;
+   cursor: pointer;
+}
+.overlapimg h5:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.threediv{
+   
+    position: absolute;
+   
+    bottom: -400%;
+   width: 50%;
+   
+}
+
+.firstimage img{
+    height: 10%;
+    width: 90%;
+  padding-bottom: 10px;
+
+}
+.overlapig{
+    width: 35%;
+   height: 4%;
+background-color:white;
+position: absolute;
+top: 330px;
+
+}
+.overlapig h5{
+    text-align: center;
+}
+
+.overlapig h5:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.pare{
+   
+    width: 90%;
+    height: 16%;
+}
+.parebtn{
+ background-color: blue;
+ padding: 1rem;
+ outline: none;
+ border: none;
+ cursor: pointer;
+ color: white;
+
+}
+.hed{
+    font-size: 38px;
+}
+.overlapimages{
+    background-color:white;
+    width: 35%;
+    height: 3%;
+  
+ position: absolute;
+ top: 1000px;
+ 
+}
+.overlapimages h5{
+text-align: center;
+}
+.firstdivimg{
+    padding-top: 100px;
+}
+.firstdivimg img{
+    width: 100%;
+    height: 100%;
+}
+.overlapimages2{
+    background-color:white;
+    width: 35%;
+    height: 4%;
+  
+ position: absolute;
+ top: 1600px;
+}
+.overlapimages2 h5{
+    text-align: center;
+}
+.img3 img{
+    padding-top:8rem ;
+    height: 50%;
+}
+.img4{
+    padding-top:1rem ;
+}
+.posi{
+    background-color: white;
+    width: 35%;
+    height: 5%;
+  
+ position: absolute;
+ top: 1550px;
+}
+.img5{
+    padding-top:1rem ;
+
+}
+.posit{
+    background-color:white;
+    width: 35%;
+    height: 3%;
+  
+ position: absolute;
+ top: 2300px;
+}
+.img6{
+    padding-top:2rem ;
+}
+.smalldiv{
+    background-color:white;
+    width: 35%;
+    height: 4%;
+  
+ position: absolute;
+ top: 2330px;
+}
+.img7{
+    padding-top:13rem ;
+}
+.smaldi{
+    background-color:white;
+    width: 50%;
+    height: 70%;
+  
+ position: absolute;
+ top: 600px;
+}
+.smaldi h5{
+    text-align: center;
+}
+.img8 img{
+ 
+   
+
+}
+.blackdiv{
+    background-color: red;
+    width: 100%;
+    height: 60%;
+}
